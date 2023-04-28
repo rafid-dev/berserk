@@ -43,6 +43,7 @@
 #include "../util.h"
 
 #define DUPLICATE_HASH_SIZE (64 * 1024 * 1024)
+#define min(a,b) (((a)<(b))?(a):(b))
 uint64_t DUPLICATE_HASH[DUPLICATE_HASH_SIZE];
 
 FenGenParams fenGenParams;
